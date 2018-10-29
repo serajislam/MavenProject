@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="qaclickacademytestSuit" duration-ms="214939" started-at="2018-10-22T05:53:56Z" finished-at="2018-10-22T05:57:31Z">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="214939" started-at="2018-10-22T05:53:56Z" finished-at="2018-10-22T05:57:31Z">
+      <class name="qaclickacademy.testcases.RegisterPageTestCases">
+        <test-method status="PASS" signature="verifyRegPage()[pri:0, instance:qaclickacademy.testcases.RegisterPageTestCases@9629756]" name="verifyRegPage" duration-ms="4990" started-at="2018-10-21T22:54:23Z" finished-at="2018-10-21T22:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegPage -->
+      </class> <!-- qaclickacademy.testcases.RegisterPageTestCases -->
+      <class name="qaclickacademy.testcases.LandingPageTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="11963" started-at="2018-10-21T22:54:37Z" finished-at="2018-10-21T22:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLandingPage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyLandingPage" duration-ms="9204" started-at="2018-10-21T22:54:49Z" finished-at="2018-10-21T22:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="786" started-at="2018-10-21T22:54:58Z" finished-at="2018-10-21T22:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="11671" started-at="2018-10-21T22:54:59Z" finished-at="2018-10-21T22:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCoursePage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyCoursePage" duration-ms="8810" started-at="2018-10-21T22:55:11Z" finished-at="2018-10-21T22:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoursePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="785" started-at="2018-10-21T22:55:20Z" finished-at="2018-10-21T22:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="11899" started-at="2018-10-21T22:55:20Z" finished-at="2018-10-21T22:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyVideoPage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyVideoPage" duration-ms="5325" started-at="2018-10-21T22:55:32Z" finished-at="2018-10-21T22:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="864" started-at="2018-10-21T22:55:38Z" finished-at="2018-10-21T22:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="12066" started-at="2018-10-21T22:55:39Z" finished-at="2018-10-21T22:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyinterviewGuidePage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyinterviewGuidePage" duration-ms="5338" started-at="2018-10-21T22:55:51Z" finished-at="2018-10-21T22:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyinterviewGuidePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="799" started-at="2018-10-21T22:55:56Z" finished-at="2018-10-21T22:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="10815" started-at="2018-10-21T22:55:57Z" finished-at="2018-10-21T22:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifypractisePage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifypractisePage" duration-ms="9326" started-at="2018-10-21T22:56:08Z" finished-at="2018-10-21T22:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypractisePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="772" started-at="2018-10-21T22:56:17Z" finished-at="2018-10-21T22:56:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="12167" started-at="2018-10-21T22:56:18Z" finished-at="2018-10-21T22:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyblogPage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyblogPage" duration-ms="5555" started-at="2018-10-21T22:56:30Z" finished-at="2018-10-21T22:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyblogPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="791" started-at="2018-10-21T22:56:35Z" finished-at="2018-10-21T22:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="11166" started-at="2018-10-21T22:56:36Z" finished-at="2018-10-21T22:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyaboutPage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyaboutPage" duration-ms="5315" started-at="2018-10-21T22:56:47Z" finished-at="2018-10-21T22:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaboutPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="788" started-at="2018-10-21T22:56:53Z" finished-at="2018-10-21T22:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="11661" started-at="2018-10-21T22:56:53Z" finished-at="2018-10-21T22:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifycontactPage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifycontactPage" duration-ms="5588" started-at="2018-10-21T22:57:05Z" finished-at="2018-10-21T22:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="807" started-at="2018-10-21T22:57:11Z" finished-at="2018-10-21T22:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="setup" is-config="true" duration-ms="11202" started-at="2018-10-21T22:57:12Z" finished-at="2018-10-21T22:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyregisterPage()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="verifyregisterPage" duration-ms="6062" started-at="2018-10-21T22:57:23Z" finished-at="2018-10-21T22:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisterPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LandingPageTestCases@1593948d]" name="tearDown" is-config="true" duration-ms="844" started-at="2018-10-21T22:57:29Z" finished-at="2018-10-21T22:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qaclickacademy.testcases.LandingPageTestCases -->
+      <class name="qaclickacademy.testcases.LoginPageTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.LoginPageTestCases@1b604f19]" name="setup" is-config="true" duration-ms="14135" started-at="2018-10-21T22:53:56Z" finished-at="2018-10-21T22:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:qaclickacademy.testcases.RegisterPageTestCases@9629756]" name="setup" is-config="true" duration-ms="13056" started-at="2018-10-21T22:54:10Z" finished-at="2018-10-21T22:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:0, instance:qaclickacademy.testcases.LoginPageTestCases@1b604f19]" name="verifyLoginPage" duration-ms="8862" started-at="2018-10-21T22:54:28Z" finished-at="2018-10-21T22:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.LoginPageTestCases@1b604f19]" name="tearDown" is-config="true" duration-ms="760" started-at="2018-10-21T22:57:30Z" finished-at="2018-10-21T22:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:qaclickacademy.testcases.RegisterPageTestCases@9629756]" name="tearDown" is-config="true" duration-ms="731" started-at="2018-10-21T22:57:30Z" finished-at="2018-10-21T22:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qaclickacademy.testcases.LoginPageTestCases -->
+    </test> <!-- Smoke -->
+  </suite> <!-- qaclickacademytestSuit -->
+</testng-results>

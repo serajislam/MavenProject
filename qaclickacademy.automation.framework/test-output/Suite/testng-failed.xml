@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="qaclickacademy.testcases.LandingPageTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyblogPage"/>
+        </methods>
+      </class> <!-- qaclickacademy.testcases.LandingPageTestCases -->
+      <class name="qaclickacademy.testcases.RegisterPageTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- qaclickacademy.testcases.RegisterPageTestCases -->
+      <class name="qaclickacademy.testcases.LoginPageTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginPage"/>
+        </methods>
+      </class> <!-- qaclickacademy.testcases.LoginPageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

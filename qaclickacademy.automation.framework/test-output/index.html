@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-qaclickacademytestSuit">
+              <span class="suite-name border-passed">qaclickacademytestSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-qaclickacademytestSuit">
+                    <span>C:\Users\Seraj Islam\workspace\qaclickacademy.automation.framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-qaclickacademytestSuit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-qaclickacademytestSuit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-qaclickacademytestSuit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-qaclickacademytestSuit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-qaclickacademytestSuit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-qaclickacademytestSuit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-qaclickacademytestSuit" class="hide-methods passed suite-qaclickacademytestSuit"> (hide)</a> <!-- hide-methods passed suite-qaclickacademytestSuit -->
+                      <a href="#" panel-name="suite-qaclickacademytestSuit" class="show-methods passed suite-qaclickacademytestSuit"> (show)</a> <!-- show-methods passed suite-qaclickacademytestSuit -->
+                    </span>
+                    <div class="method-list-content passed suite-qaclickacademytestSuit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyCoursePage">verifyCoursePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyLandingPage">verifyLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LoginPageTestCases" hash-for-method="verifyLoginPage">verifyLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.RegisterPageTestCases" hash-for-method="verifyRegPage">verifyRegPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyVideoPage">verifyVideoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyaboutPage">verifyaboutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyblogPage">verifyblogPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifycontactPage">verifycontactPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyinterviewGuidePage">verifyinterviewGuidePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifypractisePage">verifypractisePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-qaclickacademytestSuit" title="qaclickacademy.testcases.LandingPageTestCases" hash-for-method="verifyregisterPage">verifyregisterPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-qaclickacademytestSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-qaclickacademytestSuit" class="panel qaclickacademytestSuit">
+          <div class="suite-qaclickacademytestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qaclickacademy.testcases.RegisterPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegPage">
+                  </a> <!-- verifyRegPage -->
+                  <span class="method-name">verifyRegPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qaclickacademytestSuit-class-passed -->
+          <div class="suite-qaclickacademytestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qaclickacademy.testcases.LandingPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCoursePage">
+                  </a> <!-- verifyCoursePage -->
+                  <span class="method-name">verifyCoursePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLandingPage">
+                  </a> <!-- verifyLandingPage -->
+                  <span class="method-name">verifyLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyVideoPage">
+                  </a> <!-- verifyVideoPage -->
+                  <span class="method-name">verifyVideoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyaboutPage">
+                  </a> <!-- verifyaboutPage -->
+                  <span class="method-name">verifyaboutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyblogPage">
+                  </a> <!-- verifyblogPage -->
+                  <span class="method-name">verifyblogPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycontactPage">
+                  </a> <!-- verifycontactPage -->
+                  <span class="method-name">verifycontactPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyinterviewGuidePage">
+                  </a> <!-- verifyinterviewGuidePage -->
+                  <span class="method-name">verifyinterviewGuidePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifypractisePage">
+                  </a> <!-- verifypractisePage -->
+                  <span class="method-name">verifypractisePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyregisterPage">
+                  </a> <!-- verifyregisterPage -->
+                  <span class="method-name">verifyregisterPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qaclickacademytestSuit-class-passed -->
+          <div class="suite-qaclickacademytestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qaclickacademy.testcases.LoginPageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPage">
+                  </a> <!-- verifyLoginPage -->
+                  <span class="method-name">verifyLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qaclickacademytestSuit-class-passed -->
+        </div> <!-- panel qaclickacademytestSuit -->
+        <div panel-name="test-xml-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Seraj Islam\workspace\qaclickacademy.automation.framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;qaclickacademytestSuit&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Smoke&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qaclickacademy.testcases.RegisterPageTestCases&quot;/&gt;
+      &lt;class name=&quot;qaclickacademy.testcases.LoginPageTestCases&quot;/&gt;
+      &lt;class name=&quot;qaclickacademy.testcases.LandingPageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke --&gt;
+&lt;/suite&gt; &lt;!-- qaclickacademytestSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for qaclickacademytestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for qaclickacademytestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for qaclickacademytestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_qaclickacademytestSuit');
+function tableData_qaclickacademytestSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifypractisePage')
+data.setCell(0, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(0, 3, 9326);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLandingPage')
+data.setCell(1, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(1, 3, 9204);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginPage')
+data.setCell(2, 2, 'qaclickacademy.testcases.LoginPageTestCases')
+data.setCell(2, 3, 8862);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCoursePage')
+data.setCell(3, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(3, 3, 8810);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyregisterPage')
+data.setCell(4, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(4, 3, 6062);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifycontactPage')
+data.setCell(5, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(5, 3, 5588);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyblogPage')
+data.setCell(6, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(6, 3, 5555);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyinterviewGuidePage')
+data.setCell(7, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(7, 3, 5338);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyVideoPage')
+data.setCell(8, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(8, 3, 5325);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyaboutPage')
+data.setCell(9, 2, 'qaclickacademy.testcases.LandingPageTestCases')
+data.setCell(9, 3, 5315);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyRegPage')
+data.setCell(10, 2, 'qaclickacademy.testcases.RegisterPageTestCases')
+data.setCell(10, 3, 4990);
+window.suiteTableData['qaclickacademytestSuit']= { tableData: data, tableDiv: 'times-div-qaclickacademytestSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-qaclickacademytestSuit">
+              </div> <!-- times-div-qaclickacademytestSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for qaclickacademytestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-qaclickacademytestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.testcases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.testcases.RegisterPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14135 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegPage</span>
+                <span class="method-start">27204 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.testcases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPage</span>
+                <span class="method-start">32199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.testcases.LandingPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLandingPage</span>
+                <span class="method-start">53025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62230 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63016 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCoursePage</span>
+                <span class="method-start">74687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">84283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyVideoPage</span>
+                <span class="method-start">96183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">102373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyinterviewGuidePage</span>
+                <span class="method-start">114439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">120577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifypractisePage</span>
+                <span class="method-start">131392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">141491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyblogPage</span>
+                <span class="method-start">153658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">160004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyaboutPage</span>
+                <span class="method-start">171170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">177274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifycontactPage</span>
+                <span class="method-start">188935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">194524 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">195331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyregisterPage</span>
+                <span class="method-start">206533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212599 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.testcases.LoginPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213443 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qaclickacademy.testcases.RegisterPageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214203 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
